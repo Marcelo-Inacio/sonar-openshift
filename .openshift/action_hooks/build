@@ -9,7 +9,7 @@ fi
 
 cd $ROOT
 
-wget https://sonarsource-bintray.com/Distribution/sonarqube/sonarqube-$SONAR_VERSION.zip
+wget https://sonarsource.bintray.com/Distribution/sonarqube/sonarqube-$SONAR_VERSION.zip
 unzip sonarqube-$SONAR_VERSION.zip
 rm -Rf sonarqube sonarqube-$SONAR_VERSION.zip
 mv sonarqube-$SONAR_VERSION sonarqube
